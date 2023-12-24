@@ -58,19 +58,17 @@ loginForm.addEventListener("submit", hdlLogin);
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
-        const loginForm = document.querySelector(".login-form");
 
-        loginForm.addEventListener("mouseenter", function () {
-            this.classList.add("hovered");
-        });
+// document.addEventListener("DOMContentLoaded", function () {
+//     const loginForm = document.querySelector(".login-form");
 
-        loginForm.addEventListener("mouseleave", function () {
-            this.classList.remove("hovered");
-        });
-});
+//     const fadeInForm = () => {
+//         loginForm.classList.add("show");
+//     };
 
-
+//     // Set a delay before applying the "show" class
+//     setTimeout(fadeInForm, 300);
+// });
 document.addEventListener("DOMContentLoaded", function () {
     const loginForm = document.querySelector(".login-form");
 
